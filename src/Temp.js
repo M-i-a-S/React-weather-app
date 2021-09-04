@@ -12,12 +12,7 @@ export default function Temp() {
         <strong>{tempData.temp}</strong>
         
       </span>
-      
-       °C
-     
-      |
-        °F
-     
-    </span>
+      °C | °F
+     </span>
   );
 }
