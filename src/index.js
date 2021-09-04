@@ -7,6 +7,7 @@ import Circle1 from "./Circle1";
 import Circle2 from "./Circle2";
 import Form from "./Form";
 import Coder from "./Coder";
+import 'bootstrap/dist/css/bootstrap.css';
 
 import reportWebVitals from './reportWebVitals';
 
