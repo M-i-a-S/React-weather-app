@@ -14,7 +14,7 @@ function App() {
     <div className="Container">
       <div className="App">
         
-        <WeatherData />
+        <WeatherData defaultCity="Osijek"/>
 
         <Form />
 
