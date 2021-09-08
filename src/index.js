@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ImageSun from "./ImageSun";
-import Temp from "./Temp";
-import Description from "./Description";
-import Circle1 from "./Circle1";
-import Circle2 from "./Circle2";
+import WeatherData from './WeatherData';
 import Form from "./Form";
 import Coder from "./Coder";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -17,15 +13,8 @@ function App() {
   return (
     <div className="Container">
       <div className="App">
-        <h1>
-          <ImageSun />
-          <Temp />
-          <Description />
-        </h1>
-
-        <Circle1 />
-
-        <Circle2 />
+        
+        <WeatherData />
 
         <Form />
 
