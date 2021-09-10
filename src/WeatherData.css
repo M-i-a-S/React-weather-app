@@ -1,7 +1,3 @@
-.Sun {
-  width: 200px;
-}
-
 .Temp {
   font-size: 45px;
 }
@@ -93,4 +89,8 @@
   width: 100%;
   text-align: center;
   font-size: 18px;
+}
+
+#icon {
+  width: 200px;
 }

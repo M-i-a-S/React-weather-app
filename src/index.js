@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import WeatherData from "./WeatherData";
-import Form from "./Form";
 import Coder from "./Coder";
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -14,8 +13,6 @@ function App() {
     <div className="Container">
       <div className="App">
         <WeatherData defaultCity="Osijek" />
-
-        <Form />
 
         <hr className="line" />
         <div className="days" id="forecast"></div>
