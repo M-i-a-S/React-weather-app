@@ -1,4 +1,4 @@
-.Temp {
+.WeatherTemp {
   font-size: 45px;
 }
 
@@ -12,7 +12,7 @@
 
 .Description {
   position: relative;
-  left: 230px;
+  left: 180px;
   top: -50px;
 }
 
