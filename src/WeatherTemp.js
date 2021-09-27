@@ -35,10 +35,12 @@ export default function WeatherTemp(props) {
         <span>
           <strong>{Math.round(fahrenheit)} </strong>
         </span>
-        <a href="/" onClick={showCelsius}>
-          °C
-        </a>
-        |°F{" "}
+        <span className="celsius-fahrenheit">
+          <a href="/" onClick={showCelsius}>
+            °C
+          </a>
+          |°F{" "}
+        </span>
       </span>
     );
   }
