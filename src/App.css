@@ -19,12 +19,12 @@ h1 {
   width: 39%;
   margin-top: 20px;
   background: linear-gradient(135deg, #a7cfdf 0%, #5ebdf5 100%);
-  box-shadow: inset -8px -7px 4px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: inset -8px -7px 4px 0px rgba(252, 213, 213, 0.3);
 }
 
 .line {
   position: relative;
-  top: -170px;
+  top: -300px;
   border: 2px solid grey;
   border-radius: 5px;
 }
