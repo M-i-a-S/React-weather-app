@@ -15,7 +15,6 @@ function App() {
         <WeatherData defaultCity="Osijek" />
 
         <hr className="line" />
-        <div className="days" id="forecast"></div>
 
         <Coder />
       </div>
