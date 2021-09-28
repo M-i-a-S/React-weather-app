@@ -51,7 +51,6 @@ export default function WeatherData(props) {
             onChange={handleCityValue}
           />
           <input type="submit" value="Search" id="submit-button" />
-          <input type="button" value="Current" id="current-button" />
         </form>
         <WeatherInfo data={weatherData} />
         <Weather5Forecast
